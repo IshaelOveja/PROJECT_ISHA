@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+	font-family: verdana,sans-serif;
+	font-size: 12px;
+}
+@media screen {
+    p {
+        font-family: verdana,sans-serif;
+        font-size: 10px;
+    }
+}
+
+@media print {
+    p {
+        font-size: 20px;
+        color: red;
+    }
+}
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 0cm auto;
+    border: 1px #D3D3D3 solid;
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+    padding: 1cm;
+    border: 5px red solid;
+    height: 256mm;
+    outline: 2cm #FFEAEA solid;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+.titulo{
+		font-family: Baskerville Old Face;
+		color:#000000;
+		font-size: 13px;
+		font-weight: bold;
+	}
+.titulo15{
+	font-family: Baskerville Old Face;
+	color:#000000;
+	font-size: 15px;
+	font-weight: bold;
+}
+.titulo20{
+	font-family: Baskerville Old Face;
+	color:#000000;
+	font-size: 20px;
+	font-weight: bold;
+}
+.interlineado{
+		font-family: verdana,sans-serif;
+		color:#000000;
+		font-size: 14px;
+		line-height: 1.9; 
+	}
+.boder_td{/*linea td todo*/
+border:#000 solid 1px;
+}
+.boder_td_bajo{/*mansmansmnsamns*/
+border:#ccc solid 1px;
+font-size:10px;
+}
+
+.td_leneabajo{
+border-bottom:#000 solid 1px;
+font-size:10px;
+}
+
+.titulo22{ 
+	font-family:"Arial Narrow", Arial, sans-serif;
+	color:#000000;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.titulo18{ 
+	font-family:"Arial Narrow", Arial, sans-serif;
+	color:#000000;
+	font-size: 18px;
+	font-weight: bold;
+}
+.titulo14{ 
+	font-family:"Arial Narrow", Arial, sans-serif;
+	color:#000000;
+	font-size: 14px;
+	font-weight: bold;
+}
+.titulo11{
+	font-family: "Arial Narrow";
+	color:#000000;
+	font-size: 9px;
+}
